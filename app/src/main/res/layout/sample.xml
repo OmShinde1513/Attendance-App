@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="2dp"
+    android:layout_marginBottom="4dp"
+    android:id="@+id/linear">
+    <TextView
+         android:layout_width="70dp"
+         android:layout_height="wrap_content"
+         android:id="@+id/Rollno"
+         android:text="Roll No"
+         android:textAlignment="center"
+         android:textSize="18sp"
+         android:padding="4dp"/>
+
+            <TextView
+                android:id="@+id/Name"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:padding="4dp"
+                android:text="Name"
+                android:textAlignment="center"
+                android:textSize="18sp" />
+
+            <TextView
+         android:layout_width="100dp"
+         android:layout_height="wrap_content"
+         android:id="@+id/ADBMS"
+         android:text="Roll No"
+         android:textAlignment="center"
+         android:textSize="18sp"
+         android:padding="4dp"/>
+     <TextView
+         android:layout_width="100dp"
+         android:layout_height="wrap_content"
+         android:id="@+id/CNA"
+         android:text="Roll No"
+         android:textAlignment="center"
+         android:textSize="18sp"
+         android:padding="4dp"/>
+     <TextView
+         android:layout_width="100dp"
+         android:layout_height="wrap_content"
+         android:id="@+id/CT"
+         android:text="Roll No"
+         android:textAlignment="center"
+         android:textSize="18sp"
+         android:padding="4dp"/>
+     <TextView
+         android:layout_width="100dp"
+         android:layout_height="wrap_content"
+         android:id="@+id/FLAT"
+         android:text="Roll No"
+         android:textAlignment="center"
+         android:textSize="18sp"
+         android:padding="4dp"/>
+     <TextView
+         android:layout_width="100dp"
+         android:layout_height="wrap_content"
+         android:id="@+id/SEAD"
+         android:text="Roll No"
+         android:textAlignment="center"
+         android:textSize="18sp"
+         android:padding="4dp"/>
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/TOTAL"
+        android:text="Roll No"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:padding="4dp"/>
+        </LinearLayout>

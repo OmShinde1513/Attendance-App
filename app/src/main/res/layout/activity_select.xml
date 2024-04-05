@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SelectActivity"
+    android:orientation="vertical"
+    android:gravity="center">
+   <LinearLayout
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:orientation="vertical"
+       >
+       <Button
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="See Absent Students"
+           android:id="@+id/see"
+           android:backgroundTint="#DB5C08"/>
+       <Button
+           android:layout_marginTop="30dp"
+           android:layout_width="wrap_content"
+           android:layout_height="match_parent"
+           android:text="Add Absent Students"
+           android:id="@+id/add"
+           android:backgroundTint="#DB5C08"/>
+       <Button
+           android:id="@+id/stdBtn"
+           android:layout_marginTop="30dp"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="Add New Student"
+           android:backgroundTint="#DB5C08"/>
+<!--       <Button-->
+<!--           android:id="@+id/subBtn"-->
+<!--           android:layout_marginTop="30dp"-->
+<!--           android:layout_width="match_parent"-->
+<!--           android:layout_height="wrap_content"-->
+<!--           android:text="Add New Subject"-->
+<!--           android:backgroundTint="#DB5C08"/>-->
+       <Button
+           android:id="@+id/seeDefaulterBtn"
+           android:layout_marginTop="30dp"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="See Defaulter List"
+           android:backgroundTint="#DB5C08"/>
+   </LinearLayout>
+
+</LinearLayout>

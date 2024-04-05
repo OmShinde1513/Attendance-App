@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/cLayout"
+    tools:context=".SMS">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Enter The Time Slot"
+            android:textAlignment="center"
+            android:textColor="#DB5C08"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="5dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/sTime"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:hint="Start Time"
+                android:textAlignment="center"
+                android:textStyle="italic" />
+
+            <EditText
+                android:id="@+id/eTime"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:hint="End Time"
+                android:textAlignment="center"
+                android:textStyle="italic" />
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="end">
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="5dp"
+                android:layout_marginTop="2dp"
+                android:id="@+id/send"
+                android:src="@drawable/baseline_send_24"
+                android:backgroundTint="#DB5C08"
+                app:borderWidth="0dp"
+                android:contentDescription="Send Sms" />
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
